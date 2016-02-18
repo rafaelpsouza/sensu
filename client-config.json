@@ -1,0 +1,9 @@
+{
+  "client": {
+    "name": "client-1",
+    "address": "client-address",
+    "subscriptions": [
+      "test"
+    ]
+  }
+}
