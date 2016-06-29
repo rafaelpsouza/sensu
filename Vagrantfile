@@ -11,6 +11,7 @@ sudo rabbitmqctl add_vhost /sensu
 sudo rabbitmqctl add_user sensu secret
 sudo rabbitmqctl set_permissions -p /sensu sensu ".*" ".*" ".*"
 
+
 # Redis
 sudo apt-get update
 sudo apt-get -y install redis-server
